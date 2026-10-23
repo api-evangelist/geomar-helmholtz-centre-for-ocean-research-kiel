@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/geomar-helmholtz-centre-for-ocean-research-kiel/integrations
+- https://n8n.io/integrations/geomar-helmholtz-centre-for-ocean-research-kiel/
+- https://composio.dev/toolkits/geomar-helmholtz-centre-for-ocean-research-kiel
+- https://monid.ai/tools/geomar-helmholtz-centre-for-ocean-research-kiel
+checked:
+- https://composio.dev/toolkits/geomar-helmholtz-centre-for-ocean-research-kiel
+- https://monid.ai/tools/geomar-helmholtz-centre-for-ocean-research-kiel
+- https://n8n.io/integrations/geomar-helmholtz-centre-for-ocean-research-kiel/
+- https://zapier.com/apps/geomar-helmholtz-centre-for-ocean-research-kiel/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

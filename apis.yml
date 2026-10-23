@@ -1,23 +1,62 @@
 aid: geomar-helmholtz-centre-for-ocean-research-kiel
+
 name: GEOMAR Helmholtz Centre for Ocean Research Kiel
-description: 'GEOMAR Helmholtz Centre for Ocean Research Kiel is a company surfaced via the API Evangelist
-  harvest backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel is a leading research institute in Germany focusing on ocean science, climate research, and marine technology. It conducts interdisciplinary studies, provides state-of-the-art marine infrastructure, and collaborates internationally to advance understanding of ocean processes and their impact on the environment.'
+
 url: https://raw.githubusercontent.com/api-evangelist/geomar-helmholtz-centre-for-ocean-research-kiel/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Research
+- Oceanography
+- Climate
+- MarineTechnology
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/geomar-helmholtz-centre-for-ocean-research-kiel-hosts.yml
+- type: Newsroom
+  url: https://www.geomar.de/news
+- type: Leadership
+  url: https://www.geomar.de/forschen/fb1/fb1-od/team
+- type: DomainSecurity
+  url: security/geomar-helmholtz-centre-for-ocean-research-kiel-domain-security.yml
 - type: Website
-  url: https://helmholtz-metadaten.de
+  url: https://www.geomar.de
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: GEOMAR is a research institute without a public developer API.
+  evidence:
+    - url: https://www.geomar.de
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
